@@ -1,0 +1,67 @@
+body {background-image: url('images/image3.jpg');
+  background-size: 40% auto;
+  background-position: center 100px;
+  background-repeat: no-repeat;
+  color: #191970;
+  font-family: Georgia, "Times New Roman", serif;
+}
+body {
+  background-color:#E2FFFF;
+}
+body {
+  color: #191970;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+p, h1, h2, li {
+  margin: 10px;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #c0392b;
+}
+
+p {
+  color: #237B7B;
+}
+
+li {
+  color: #7f8c8d;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-style: italic;
+}
+
+li {
+  list-style-type: disc;
+}
+
+ol li {
+  font-weight: bold;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+}
+
+.flex{
+  display: flex;
+}
+
+a:visited{
+  color: bisque;
+}
