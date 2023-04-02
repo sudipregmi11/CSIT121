@@ -1,0 +1,122 @@
+body {
+background-image: url('images/image3.jpg');
+background-size: 40% auto;
+background-position: center 100px;
+background-repeat: no-repeat;
+color: #191970;
+font-family: Georgia, "Times New Roman", serif;
+}
+
+body {
+background-color:#E2FFFF;
+}
+
+body {
+color: #191970;
+font-family: Georgia, "Times New Roman", serif;
+}
+
+p, h1, h2, li {
+margin: 10px;
+}
+
+h1, h2 {
+text-transform: uppercase;
+}
+
+h1 {
+color: #c0392b;
+}
+
+p {
+color: #237B7B;
+}
+
+li {
+color: #7f8c8d;
+}
+
+h1 {
+text-align: center;
+}
+
+h2 {
+font-style: italic;
+}
+
+li {
+list-style-type: disc;
+}
+
+ol li {
+font-weight: bold;
+}
+
+body {
+display: flex;
+justify-content: center;
+}
+
+.container {
+width: 80%;
+}
+
+.flex {
+display: flex;
+flex-wrap: wrap;
+}
+
+.flex > * {
+flex-basis: 100%;
+}
+
+.ingredients {
+order: 2;
+}
+
+.instructions {
+order: 3;
+}
+
+p {
+order: 4;
+}
+
+a:visited {
+color: bisque;
+}
+
+@media screen and (max-width: 768px) {
+
+body {
+ background-color: #faebd7;
+ background-image: url('images/image3.jpg');
+ background-size: 40% auto;
+ background-position: center 100px;
+ background-repeat: no-repeat;
+ color: #191970;
+font-family: Georgia, "Times New Roman", serif;
+}
+.flex {
+  flex-direction: column;
+}
+
+.ingredients {
+  order: 1;
+}
+
+.instructions {
+  order: 2;
+}
+
+p {
+  order: 3;
+}
+
+p {
+  color: #f0f8ff;
+}
+ h3 {
+   color: #008000;
+ }
+}
