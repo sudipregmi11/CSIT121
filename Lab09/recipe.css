@@ -1,0 +1,209 @@
+body {
+background-image: url('images/image3.jpg');
+background-size: 40% auto;
+background-position: center 100px;
+background-repeat: no-repeat;
+color: #191970;
+font-family: Georgia, "Times New Roman", serif;
+}
+
+body {
+background-color:#E2FFFF;
+}
+
+body {
+color: #191970;
+font-family: Georgia, "Times New Roman", serif;
+}
+
+p, h1, h2, li {
+margin: 10px;
+}
+
+h1, h2 {
+text-transform: uppercase;
+}
+
+h1 {
+color: #c0392b;
+}
+
+p {
+color: #237B7B;
+}
+
+li {
+color: #7f8c8d;
+}
+
+h1 {
+text-align: center;
+}
+
+h2 {
+font-style: italic;
+}
+
+li {
+list-style-type: disc;
+}
+
+ol li {
+font-weight: bold;
+}
+
+body {
+display: flex;
+justify-content: center;
+}
+
+.container {
+width: 80%;
+}
+
+.flex {
+display: flex;
+flex-wrap: wrap;
+}
+
+.flex > * {
+flex-basis: 100%;
+}
+
+.ingredients {
+order: 2;
+}
+
+.instructions {
+order: 3;
+}
+
+p {
+order: 4;
+}
+
+a:visited {
+color: bisque;
+}
+
+@media screen and (max-width: 768px) {
+
+body {
+background-color: #faebd7;
+background-image: none;
+background-size: 40% auto;
+background-position: center 100px;
+background-repeat: no-repeat;
+color: #191970;
+font-family: Georgia, "Times New Roman", serif;
+}
+.flex {
+flex-direction: column;
+}
+
+.ingredients {
+order: 1;
+}
+
+.instructions {
+order: 2;
+}
+
+p {
+order: 3;
+}
+
+p {
+color: #f0f8ff;
+}
+h3 {
+ color: #008000;
+}
+}
+  table {
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  td:first-child {
+    font-weight: bold;
+    background-color: #f2f2f2;
+  }
+  td:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  td:last-child {
+    background-color: #fff;
+    font-style: italic;
+  }
+  td[colspan="2"] {
+    background-color: #e6ffe6;
+    font-weight: bold;
+  }
+
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  background: #f9f9;
+  padding:2em;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+label {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+input,
+select {
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  margin-top: 0.5em;
+}
+
+select {
+  height: 6em;
+}
+
+fieldset {
+  margin-top: 1em;
+  border: none;
+}
+
+.buttons {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+button[type="reset"] {
+  background-color: #f44336;
+}
