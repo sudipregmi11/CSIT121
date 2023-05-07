@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XML and JavaScript</title>
+	<style>
+
+		body {
+			font-family: Arial, sans-serif;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+     background-color: #D3D3D3;
+		}
+
+		h1 {
+			font-size: 36px;
+			font-weight: bold;
+			color: #333;
+			margin-bottom: 20px;
+		}
+
+		h2 {
+			font-size: 24px;
+			font-weight: bold;
+			color: #333;
+			margin-top: 40px;
+			margin-bottom: 20px;
+		}
+
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			color: #666;
+			margin-bottom: 20px;
+		}
+
+		ul {
+			font-size: 18px;
+			line-height: 1.5;
+			color: #666;
+			margin-left: 20px;
+			margin-bottom: 20px;
+		}
+
+		code {
+			font-family: Consolas, monospace;
+			font-size: 16px;
+			background-color: #ADD8;
+			padding: 5px;
+		}
+	</style>
+</head>
+<body>
+	<h1>XML and JavaScript</h1>
+
+	<h2>What is XML?</h2>
+	<p>XML stands for eXtensible Markup Language. It is a markup language that is used to store and transport data.</p>
+
+	<h2>How is XML used?</h2>
+	<p>XML is used in a variety of applications, including:</p>
+	<ul>
+		<li>Storing and transporting data</li>
+		<li>Configuring and storing settings in applications</li>
+		<li>Exchanging data between applications and systems</li>
+		<li>Defining document structures in web applications</li>
+	</ul>
+
+	<h2>What does XML look like? (provide an example)</h2>
+	<p>Here is an example of what XML code might look like:</p>
+	<code>
+		&lt;bookstore&gt;
+			&lt;book category="cooking"&gt;
+				&lt;title&gt;The Joy of Cooking&lt;/title&gt;
+				&lt;author&gt;Jane Doe&lt;/author&gt;
+				&lt;year&gt;2005&lt;/year&gt;
+			&lt;/book&gt;
+			&lt;book category="history"&gt;
+				&lt;title&gt;The History of the World&lt;/title&gt;
+				&lt;author&gt;John Doe&lt;/author&gt;
+				&lt;year&gt;2000&lt;/year&gt;
+			&lt;/book&gt;
+		&lt;/bookstore&gt;
+	</code>
+
+	<h2>What is JavaScript?</h2>
+	<p>JavaScript is a programming language that is used to create dynamic and interactive web pages.</p>
+
+	<h2>How is JavaScript related to HTML and CSS?</h2>
+	<p>JavaScript is often used in conjunction with HTML and CSS to create web pages that are both functional and visually appealing. JavaScript can be used to:</p>
+	<ul>
+		<li>Manipulate the content of an HTML page</li>
+		<li>Respond to user interactions with the page</li>
+		<li>Change the appearance of HTML and CSS elements</li>
+		<li>Animate elements on a web page</li>
+		<li>Retrieve and modify data from external sources, such as APIs</li>
+</ul>
+ <h2>What are some common JavaScript elements, properties, methods, and functions? (provide at least 1 example of each)</h2>
+<p>Here are some examples of common JavaScript elements, properties, methods, and functions:</p>
+<ul>
+	<li><strong>Element:</strong> document.getElementById('myElement')</li>
+	<li><strong>Property:</strong> element.innerHTML = 'New content'</li>
+	<li><strong>Method:</strong> element.addEventListener('click', function() { alert('Clicked!'); })</li>
+	<li><strong>Function:</strong> function myFunction(param1, param2) { return param1 + param2; }</li>
+</ul>
+</body>
+</html>
